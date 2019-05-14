@@ -8,6 +8,8 @@ def oxford_comma(array)
         string >> "#{element}, "
       else
         string >> "and #{element}"
+      end
+    end
   end
     
 end
