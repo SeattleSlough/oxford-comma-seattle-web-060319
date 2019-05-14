@@ -11,6 +11,6 @@ def oxford_comma(array)
       end
     end
     string = new_array.join(", ")
+    return string
   end
-  return string
 end
