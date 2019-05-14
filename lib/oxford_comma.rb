@@ -4,7 +4,7 @@ def oxford_comma(array)
   else
     new_array = []
     array.each do |element|
-      if array.index(element) != array.length
+      if array.index(element) != array.length - 1
         new_array << element
       else
         new_array << "and #{element}"
