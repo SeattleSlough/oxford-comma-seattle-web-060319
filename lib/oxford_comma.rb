@@ -2,10 +2,10 @@ def oxford_comma(array)
   if array.length <= 2 
     array.join(" and ")
   else
-    string = ""
+    new_array = []
     array.each do |element|
       if array.index(element) != array[-1]
-        string + element + ", "
+        string << element
       else
         string + "and #{element}"
       end
