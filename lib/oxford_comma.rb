@@ -5,9 +5,9 @@ def oxford_comma(array)
     new_array = []
     array.each do |element|
       if array.index(element) != array[-1]
-        string << element
+        new_array << element
       else
-        string + "and #{element}"
+        new_array << "and #{element}"
       end
     end
   end
