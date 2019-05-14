@@ -9,7 +9,6 @@ def oxford_comma(array)
       else
         new_array << "and #{element}"
       end
-      end
     end
     string = new_array.join(", ")
     return string
